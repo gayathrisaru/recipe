@@ -1,0 +1,34 @@
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .button_slide {
+    color: #FFF;
+    border: 5px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    position: absolute;
+    top:300px;
+    left:300px;
+    font-size: 25px;
+  }
+  .slide_left:hover {
+    box-shadow: inset 0 0 0 50px #D80286;
+  }
+  #outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }

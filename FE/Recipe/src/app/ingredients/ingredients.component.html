@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <i class="fa fa-clock-o"></i>
+        <div class="time">{{time}}</div>
+    </div>
+    <div class="row">
+        <div class="ingredients">
+            <ul>
+                <li *ngFor="let items of item">{{items.ingredients}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

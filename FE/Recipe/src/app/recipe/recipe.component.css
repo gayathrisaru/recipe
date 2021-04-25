@@ -1,0 +1,43 @@
+.container{
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.list-group-item{
+    margin-top: 5px;
+    color:#ffffff;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 80%;
+}
+.list-group-item:nth-child(odd){
+    background-color: #1aa6b7;
+}
+.list-group-item:nth-child(even){
+    background-color: #f56a79;
+}
+.navbar{
+    background-color: #ffc93c;
+    font-size: 20px;
+    font-weight: bold;
+    color: #07689f;
+    align-items: center;
+    justify-content: center;
+}
+.card-header{
+    background-color: #55b3b1;
+}
+.badge{
+    background-color: #f6c065;
+    font-size: 20px;
+}
+.nav{
+    justify-content: space-around;
+}
+.nav-item{
+    margin-top: 20px;
+    color:blanchedalmond;
+}
+.nav-item:hover{
+    background-color: #09015f;
+    color: #af0069;
+}
